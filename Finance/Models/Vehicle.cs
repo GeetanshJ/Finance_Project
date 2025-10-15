@@ -1,6 +1,6 @@
 namespace VehicleApp
 {
-    class Vehicle
+    public class Vehicle
     {
         // Fields / Properties
         public int policyNo { get; set; }       // Auto Incremented (DB will handle)
