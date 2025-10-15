@@ -16,31 +16,30 @@ namespace VehicleApp
         public DateTime toDt { get; set; }      // To Date
         public string uwId { get; set; }        // Underwriter Id
 
-        // ✅ Constructor
-        public Vehicle(string vNo, string vType, string custName,
-                       int engNo, int chaNo, long phone, string insType,
-                       DateTime fromDt, string uwId)
-        {
-            this.vNo = vNo;
-            this.vType = vType;
-            this.custName = custName;
-            this.engNo = engNo;
-            this.chaNo = chaNo;
-            this.phone = phone;
-            this.insType = insType;
-            this.fromDt = fromDt;
-            this.uwId = uwId;
+        // public Vehicle(string vNo, string vType, string custName,
+        //                int engNo, int chaNo, long phone, string insType,
+        //                DateTime fromDt, string uwId)
+        // {
+        //     this.vNo = vNo;
+        //     this.vType = vType;
+        //     this.custName = custName;
+        //     this.engNo = engNo;
+        //     this.chaNo = chaNo;
+        //     this.phone = phone;
+        //     this.insType = insType;
+        //     this.fromDt = fromDt;
+        //     this.uwId = uwId;
 
-            // Auto calculate Premium Amount based on VehicleType
-            if (vType.Equals("2-wheeler", StringComparison.OrdinalIgnoreCase))
-                premium = 2500;
-            else if (vType.Equals("4-wheeler", StringComparison.OrdinalIgnoreCase))
-                premium = 6500;
-            else
-                premium = 0;
+        //     // Auto calculate Premium Amount based on VehicleType
+        //     if (vType.Equals("2-wheeler", StringComparison.OrdinalIgnoreCase))
+        //         premium = 2500;
+        //     else if (vType.Equals("4-wheeler", StringComparison.OrdinalIgnoreCase))
+        //         premium = 6500;
+        //     else
+        //         premium = 0;
 
-            // Auto calculate ToDate
-            toDt = fromDt.AddDays(365);
-        }
+        //     // Auto calculate ToDate
+        //     toDt = fromDt.AddDays(365);
+        // }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
-using FinanceApp;
+using Underwriter;
 using VehicleApp;
+using admin;
 namespace Project
 {
     class Hello
@@ -73,8 +74,8 @@ namespace Project
 
                     case 6:
                         Console.Write("Enter UnderWriter Id: ");
-                        int underwriterId = int.Parse(Console.ReadLine());
-                        admin.ViewVehiclesByUnderWriterId(underwriterId);
+                        int UnderWriterId = int.Parse(Console.ReadLine());
+                        admin.ViewVehiclesByUnderWriterId(UnderWriterId);
                         break;
 
                     case 7:
@@ -93,7 +94,7 @@ namespace Project
 
         public static void ShowUnderWriterOptions(int count)
         {
-            Underwriter underWriter = new Underwriter();
+            UnderWriter UnderWriter = new UnderWriter();
             int choice = 0;
 
             do
@@ -151,14 +152,14 @@ namespace Project
                         vehicle.uwId = Console.ReadLine();
 
                         // Pass this object to the method
-                        underWriter.CreateVehicleInsurance(vehicle);
+                        UnderWriter.CreateVehicleInsurance(vehicle);
                         break;
 
 
                     case 2:
                         Console.Write("Enter Vehicle Id for Renewal: ");
                         int renewId = int.Parse(Console.ReadLine());
-                        underWriter.RenewPolicy(renewId);
+                        UnderWriter.RenewPolicy(renewId);
                         break;
 
                     case 3:
@@ -166,16 +167,17 @@ namespace Project
                         int changeId = int.Parse(Console.ReadLine());
                         Console.Write("Enter New Policy Type (Full/Third Party): ");
                         string newType = Console.ReadLine();
-                        underWriter.ChangePolicyType(changeId, newType);
+                        UnderWriter.ChangePolicyType(changeId, newType);
                         break;
 
                     case 4:
-                        underWriter.ViewAllPolicies();
+                        UnderWriter.ViewAllPolicies();
                         break;
 
                     case 5:
                         Console.WriteLine("Returning to Role Choosing Menu...");
                         Auth(count);
+                        break;
 
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
@@ -190,7 +192,7 @@ namespace Project
         {
             int adminId = 259286;
             string adminPassword = "admin123";
-            Console.WriteLine("Please Select your choice to login\n 1 for Admin \n 2 for Underwriter");
+            Console.WriteLine("Please Select your choice to login\n 1 for Admin \n 2 for UnderWriter");
             int choice = int.Parse(Console.ReadLine());
 
 
@@ -214,16 +216,20 @@ namespace Project
             }
             else
             {
-                Console.WriteLine("Enter your underwriter ID: ");
+                Console.WriteLine("Enter your UnderWriter ID: ");
                 int id = int.Parse(Console.ReadLine());
                 Console.WriteLine("Enter your Password: ");
                 string password = Console.ReadLine();
 
-                Underwriter underwriter = new Underwriter();
-                if (underwriter.underwriterId == id && password.Equals(underwriter.password))
+                UnderWriter underWriter = new UnderWriter();
+                if (underWriter.UnderWriterId == id && password.Equals(underWriter.password))
                 {
                     Console.WriteLine("Logged in Successfully");
                     ShowUnderWriterOptions(count);
+                } else
+                {
+                    Console.WriteLine("Entered Wrong Details");
+                    Auth(count);
                 }
             }
         }
