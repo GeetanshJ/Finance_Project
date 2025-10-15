@@ -3,7 +3,7 @@ namespace Project
 {
     public class User
     {
-
+        
     }
 
     class Admin : User
@@ -26,6 +26,6 @@ class Hello
 {
     public static void Main(string[] args)
     {
-
+        // hi i am ansh
     }
 }
