@@ -1,31 +1,12 @@
 ﻿using System;
 namespace Project
 {
-    public class User
+    class Hello
     {
-        
-    }
-
-    class Admin : User
-    {
-
-    }
-
-    class UnderWriter : User
-    {
-
-    }
-
-    class Vehicle
-    {
-
+        public static void Main(string[] args)
+        {
+            
+        }
     }
 }
 
-class Hello
-{
-    public static void Main(string[] args)
-    {
-        // hi i am ansh
-    }
-}
