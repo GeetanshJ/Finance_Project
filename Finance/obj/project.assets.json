@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\91708\\.nuget\\packages\\": {}
+    "/Users/dhairyshrivastava/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\91708\\OneDrive\\Desktop\\Projects\\Finance\\Finance\\Finance.csproj",
+      "projectUniqueName": "/Users/dhairyshrivastava/Desktop/C#/Finance_Project/Finance/Finance.csproj",
       "projectName": "Finance",
-      "projectPath": "C:\\Users\\91708\\OneDrive\\Desktop\\Projects\\Finance\\Finance\\Finance.csproj",
-      "packagesPath": "C:\\Users\\91708\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\91708\\OneDrive\\Desktop\\Projects\\Finance\\Finance\\obj\\",
+      "projectPath": "/Users/dhairyshrivastava/Desktop/C#/Finance_Project/Finance/Finance.csproj",
+      "packagesPath": "/Users/dhairyshrivastava/.nuget/packages/",
+      "outputPath": "/Users/dhairyshrivastava/Desktop/C#/Finance_Project/Finance/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\91708\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/dhairyshrivastava/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
