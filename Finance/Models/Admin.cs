@@ -1,6 +1,6 @@
 namespace FinanceApp
 {
-    public class Admin : User
+    public class Admin
     {
     }
 }

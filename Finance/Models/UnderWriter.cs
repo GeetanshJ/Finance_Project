@@ -1,6 +1,7 @@
 namespace FinanceApp
 {
-    public class Underwriter : User
+    public class Underwriter
     {
+        
     }
 }

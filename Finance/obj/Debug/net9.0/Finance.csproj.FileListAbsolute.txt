@@ -1,0 +1,15 @@
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.GeneratedMSBuildEditorConfig.editorconfig
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.AssemblyInfoInputs.cache
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.AssemblyInfo.cs
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.csproj.CoreCompileInputs.cache
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.sourcelink.json
+E:\CaseStudy\Finance_Project\Finance\bin\Debug\net9.0\Finance.exe
+E:\CaseStudy\Finance_Project\Finance\bin\Debug\net9.0\Finance.deps.json
+E:\CaseStudy\Finance_Project\Finance\bin\Debug\net9.0\Finance.runtimeconfig.json
+E:\CaseStudy\Finance_Project\Finance\bin\Debug\net9.0\Finance.dll
+E:\CaseStudy\Finance_Project\Finance\bin\Debug\net9.0\Finance.pdb
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.dll
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\refint\Finance.dll
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.pdb
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\Finance.genruntimeconfig.cache
+E:\CaseStudy\Finance_Project\Finance\obj\Debug\net9.0\ref\Finance.dll
